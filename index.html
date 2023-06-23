@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <div class="AllMother">
+            <div class="HeaderMother">
+        <h1>Konversi suhu</h1>
+    </div> 
+    <div class="InputTemp">
+        <div class="InputHeaderMother">
+            <label class="InputHeader">Input Suhu</label>
+        </div>
+        <div class="InputField">
+            <input type="number" id="temperature" step="0.01" placeholder="Enter temperature..." oninput="convertTemperature()">
+        </div>                
+    </div>  
+    <div class="SelectUnitMother">
+        <div class="SelectUnitHead">
+            <label for="unit">Pilih unit suhu</label>
+        </div>        
+        <select id="unit" onchange="convertTemperature()">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+        </select>    
+    </div>          
+    </div>  
+    </div>
+    <div class="Result">
+          <div class="ResultHead">
+          <h2>Converted Temperatures:</h2>
+          <h3 id="celsius"></h3>
+          <h3 id="fahrenheit"></h3>
+          <h3 id="kelvin"></h3>          
+    </div> 
+    
+         
+
+    
+    
+
+    <script src="index.js"></script>
+</body>
+</html>

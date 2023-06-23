@@ -1,0 +1,54 @@
+body {
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.AllMother {
+    border: 2px solid green;
+    color: #0090f5;
+    padding: 10px;
+}
+
+/* HEADER */
+.HeaderMother {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* INPUT */
+.InputHeaderMother {
+    text-align: center;
+}
+
+.InputField {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SELECT */
+.SelectUnitMother {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+/* RESULT */
+.Result {
+    margin-top: 0px;
+    border: 2px solid green;
+    background: green;
+    color: black;
+    height: 200px;
+}
+
+.ResultHead {
+    text-align: center;
+}
+
+@media (min-width: 700px){
+    
+}
+
